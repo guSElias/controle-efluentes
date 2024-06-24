@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CardFiltros from './components/CardFiltros.vue';
+</script>
 <template>
-  <div></div>
+  <div>
+    <CardFiltros />
+  </div>
 </template>
