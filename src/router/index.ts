@@ -29,7 +29,7 @@ const router = createRouter({
       component: GraficoPh
     },
     {
-      path: '/nivel-agua',
+      path: '/nivel',
       name: 'nivel',
       component: GraficoNivel
     },

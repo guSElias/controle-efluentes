@@ -1,0 +1,110 @@
+{
+  "ph": [
+    {
+      "data_stream_name": "ph",
+      "ts": "2024-06-26 18:02:00",
+      "value": 4.395348837209302
+    },
+    {
+      "data_stream_name": "ph",
+      "ts": "2024-06-25 20:12:00",
+      "value": 13
+    },
+    {
+      "data_stream_name": "ph",
+      "ts": "2024-06-25 20:11:00",
+      "value": 6.304347826086956
+    },
+    {
+      "data_stream_name": "ph",
+      "ts": "2024-06-26 20:32:00",
+      "value": 11.4
+    },
+    {
+      "data_stream_name": "ph",
+      "ts": "2024-06-26 20:31:00",
+      "value": 1
+    }
+  ],
+  "turbidez": [
+    {
+      "data_stream_name": "turbidez",
+      "ts": "2024-06-26 18:02:00",
+      "value": 0.9534883720930233
+    },
+    {
+      "data_stream_name": "turbidez",
+      "ts": "2024-06-25 20:12:00",
+      "value": 7
+    },
+    {
+      "data_stream_name": "turbidez",
+      "ts": "2024-06-25 20:11:00",
+      "value": 3.5217391304347827
+    },
+    {
+      "data_stream_name": "turbidez",
+      "ts": "2024-06-26 20:32:00",
+      "value": 1.2
+    },
+    {
+      "data_stream_name": "turbidez",
+      "ts": "2024-06-26 20:31:00",
+      "value": 7
+    }
+  ],
+  "temperatura": [
+    {
+      "data_stream_name": "temperatura",
+      "ts": "2024-06-26 18:02:00",
+      "value": 23.558139534883722
+    },
+    {
+      "data_stream_name": "temperatura",
+      "ts": "2024-06-25 20:12:00",
+      "value": 76
+    },
+    {
+      "data_stream_name": "temperatura",
+      "ts": "2024-06-25 20:11:00",
+      "value": 36.34782608695652
+    },
+    {
+      "data_stream_name": "temperatura",
+      "ts": "2024-06-26 20:32:00",
+      "value": 76
+    },
+    {
+      "data_stream_name": "temperatura",
+      "ts": "2024-06-26 20:31:00",
+      "value": 19
+    }
+  ],
+  "nivel": [
+    {
+      "data_stream_name": "nivel",
+      "ts": "2024-06-26 20:32:00",
+      "value": 3.12
+    },
+    {
+      "data_stream_name": "nivel",
+      "ts": "2024-06-26 20:31:00",
+      "value": 3
+    },
+    {
+      "data_stream_name": "nivel",
+      "ts": "2024-06-26 19:02:00",
+      "value": 0.9069767441860465
+    },
+    {
+      "data_stream_name": "nivel",
+      "ts": "2024-06-25 21:12:00",
+      "value": 4
+    },
+    {
+      "data_stream_name": "nivel",
+      "ts": "2024-06-25 21:11:00",
+      "value": 3.217391304347826
+    }
+  ]
+}

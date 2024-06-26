@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "https://ny3.blynk.cloud/external/api"
+  baseURL: "http://localhost:3000/"
 })
 
 export default http
