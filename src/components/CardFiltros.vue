@@ -5,17 +5,18 @@ const cards = [
   { title: 'Ph', image: new URL('../assets/img/ph.png', import.meta.url).href },
   { title: 'Nível da água', image: new URL('../assets/img/nivelAgua.png', import.meta.url).href }
 ]
-console.log(cards)
 </script>
 
 <template>
-  <div class="grid">
+  <div class="container-grid">
     <div class="row gap-5 justify-content-center">
-      <div v-for="card in cards" :key="card.title" class="card text-center" style="width: 18rem">
-        <img class="card-img-top" :src="card.image" alt="" style="height: 250px; width: 17rem;" />
+      <div v-for="card in cards" :key="card.title" class="card text-center" style="width: 14rem;">
+        <img class="card-img-top" :src="card.image" alt="" />
         <div class="card-body">
           <h5 class="card-title">{{ card.title }}</h5>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <button type="button" class="btn btn-primary" @click="applyFilter(card.title)">
+            Adicionar filtro
+          </button>
         </div>
       </div>
     </div>
